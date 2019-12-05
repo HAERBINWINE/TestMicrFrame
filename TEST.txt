@@ -1,0 +1,21 @@
+*IDN?
+*RST;*OPC?
+:ACQuire:BANDwidth?
+*OPC?
+:ACQuire:BANDwidth:FRAMe?
+*OPC?
+:MEASure:VMAX CHANnel1;*OPC?
+:ACQuire:MODE?
+:TRIGger:MODE EDGE;*OPC?
+:MEASure:VMAX?
+:TIMebase:SCALE 5e-6;*OPC?
+:CHANnel<N>:SCALe?
+:CHANnel1:SCALe 2E-3;*OPC?
+:CHANnel<N>:SCALe?
+:MEASure:VMIN CHANnel1;*OPC?
+:MEASure:VPP CHANnel1;*OPC?
+:DISPlay:BOOKmark1:SET NONE,"Vcc";*OPC?
+:DIG;*OPC?
+:MEASure:RISetime?
+:DISK:SAVE:IMAGe 'c:\123' , JPEG,SCR,ON,INVERT;*OPC?
+
